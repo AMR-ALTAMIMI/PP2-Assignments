@@ -22,3 +22,49 @@ squares = (x * x for x in range(5))
 
 for num in squares:
     print(num)
+# 5
+myStr = 'banana'
+myit = iter(myStr)
+for i in myStr:
+    print(i)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+# 2
+class myNum:
+    def __iter__(self):
+        self.a = 1
+        return self
+    def __next__(self):
+        x = self.a
+        self.a +=1
+        return x
+
+myc = myNum()
+myit = iter(myNum)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+# 3
+class myn:
+    def __iter__(self):
+        self.a = 1
+        return self
+    def __next__(self):
+        if self.a <= 20:
+            x = self.a
+            self.a += 1
+            return x
+        else:
+            raise StopIteration
+        
+myx = myn()
+y = iter(myn)
+for x in y:
+    print(x)
+    
