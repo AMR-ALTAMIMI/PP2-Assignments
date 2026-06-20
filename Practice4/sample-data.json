@@ -1,0 +1,31 @@
+{
+  "store": "The Glory",
+  "platform": "Kaspi.kz",
+  "products": [
+    {
+      "id": 1,
+      "name": "Silicone Toilet Brush",
+      "price": 1590,
+      "currency": "KZT",
+      "in_stock": true,
+      "tags": ["bathroom", "cleaning"]
+    },
+    {
+      "id": 2,
+      "name": "Kitchen Sponge Set",
+      "price": 890,
+      "currency": "KZT",
+      "in_stock": true,
+      "tags": ["kitchen", "cleaning"]
+    },
+    {
+      "id": 3,
+      "name": "Storage Box",
+      "price": 2300,
+      "currency": "KZT",
+      "in_stock": false,
+      "tags": ["organization"]
+    }
+  ],
+  "total_products": 3
+}
