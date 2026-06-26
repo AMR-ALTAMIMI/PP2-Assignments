@@ -1,0 +1,33 @@
+RECEIPT COPY
+
+Branch: EUROPHARMA LLP Astana
+BIN: 080841000762
+VAT Series: 58002
+Cash Register: 300-190
+Shift: 10
+Receipt Number: 2331180266
+Cashier: Pharmacy 17-1
+
+SALE
+
+1. Sodium Chloride 0.9%, 200 ml
+Quantity: 2
+Price: 154.00
+Total: 308.00
+
+2. Boric Alcohol 3%, 20 ml
+Quantity: 1
+Price: 51.00
+Total: 51.00
+
+...
+
+Payment Method: Bank Card
+TOTAL: 18009.00
+
+VAT (12%): 0.00
+
+Date: 18.04.2019
+Time: 11:13:58
+
+City: Nur-Sultan, Kazakhstan
