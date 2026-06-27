@@ -1,33 +1,129 @@
-RECEIPT COPY
+duplicate
 
-Branch: EUROPHARMA LLP Astana
-BIN: 080841000762
-VAT Series: 58002
-Cash Register: 300-190
-Shift: 10
-Receipt Number: 2331180266
-Cashier: Pharmacy 17-1
+branch of too europharma astana
 
-SALE
+bin 080841000762
 
-1. Sodium Chloride 0.9%, 200 ml
-Quantity: 2
-Price: 154.00
-Total: 308.00
+vat series 58002
 
-2. Boric Alcohol 3%, 20 ml
-Quantity: 1
-Price: 51.00
-Total: 51.00
+no. 0014371
 
-...
+cash register 300-190
 
-Payment Method: Bank Card
-TOTAL: 18009.00
+shift 10
 
-VAT (12%): 0.00
+receipt sequence no. 61
 
-Date: 18.04.2019
-Time: 11:13:58
+receipt no. 2331180266
 
-City: Nur-Sultan, Kazakhstan
+cashier pharmacy 17-1
+
+sale
+
+1. sodium chloride 0.9%, 200 ml, bottle
+   2 × 154.00 = 308.00
+   cost: 308.00
+
+2. boric alcohol 3%, 20 ml, bottle
+   1 × 51.00 = 51.00
+   cost: 51.00
+
+3. syringe 2 ml, 3-piece (bioject)
+   2 × 16.00 = 32.00
+   cost: 32.00
+
+4. infusion set vogt medical
+   2 × 60.00 = 120.00
+   cost: 120.00
+
+5. syringe 5 ml, 3-piece
+   1 × 310.00 = 310.00
+   cost: 310.00
+
+6. aura cotton pads no. 150
+   1 × 461.00 = 461.00
+   cost: 461.00
+
+7. chistaya liniya gentle scrub 50 ml
+   1 × 381.00 = 381.00
+   cost: 381.00
+
+8. chistaya liniya purifying apricot scrub 50 ml
+   1 × 386.00 = 386.00
+   cost: 386.00
+
+9. chistaya liniya gentle scrub 50 ml
+   1 × 381.00 = 381.00
+   cost: 381.00
+
+10. nivea men's 3-in-1 shampoo 400 ml
+    1 × 414.00 = 414.00
+    cost: 414.00
+
+11. pro series shampoo vibrant color 500 ml
+    1 × 841.00 = 841.00
+    cost: 841.00
+
+12. pro series conditioner for long-lasting care of colored hair, vibrant color, 500 ml
+    1 × 841.00 = 841.00
+    cost: 841.00
+
+13. clear active sport 2-in-1 men's shampoo 400 ml
+    1 × 1,200.00 = 1,200.00
+    cost: 1,200.00
+
+14. bio world (hydro therapy) micellar water 5-in-1, 445 ml
+    1 × 1,152.00 = 1,152.00
+    cost: 1,152.00
+
+15. bio world (hydro therapy) cleansing gel-mousse with hyaluronic acid, 250 ml
+    1 × 1,152.00 = 1,152.00
+    cost: 1,152.00
+
+16. [rx] sodium chloride 0.9%, 100 ml, bottle
+    1 × 168.00 = 168.00
+    cost: 168.00
+
+17. [rx] disol solution 400 ml, bottle
+    1 × 163.00 = 163.00
+    cost: 163.00
+
+18. tagansorbent with silver ions no. 30, powder
+    1 × 1,526.00 = 1,526.00
+    cost: 1,526.00
+
+19. [rx] cerucal 2%, 2 ml, no. 10 ampoules
+    2 × 396.00 = 792.00
+    cost: 792.00
+
+20. [rx] andazol 200 mg, no. 40 tablets
+    1 × 7,330.00 = 7,330.00
+    cost: 7,330.00
+
+bank card: 18,009.00
+
+total: 18,009.00
+
+including vat 12%: 0.00
+
+fiscal signature: 2331180266
+
+time: 18.04.2019 11:13:58
+
+nur-sultan, kazakhstan, mangilik el, 19, np-5
+
+fiscal data operator: jsc "kazakhtelecom"
+
+to verify the receipt, visit: consumer.oofd.kz
+
+fiscal receipt
+
+fp
+
+ofd registration no.: 311559
+
+state revenue committee cash register code (rnm): 620300145311
+
+cash register serial no.: swk00034965
+
+webkassa.kz
