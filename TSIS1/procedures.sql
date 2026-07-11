@@ -1,7 +1,8 @@
--- =========================================
--- TSIS1 Procedure: Add Phone
--- =========================================
+-- ======================================
+-- TSIS1 Procedures
+-- ======================================
 
+-- Add phone to existing contact
 CREATE OR REPLACE PROCEDURE add_phone(
     p_contact_name VARCHAR,
     p_phone VARCHAR,
@@ -10,27 +11,21 @@ CREATE OR REPLACE PROCEDURE add_phone(
 LANGUAGE plpgsql
 AS $$
 DECLARE
-    v_contact_id INT;
+    c_id INT;
 BEGIN
-    SELECT id
-    INTO v_contact_id
+    SELECT id INTO c_id
     FROM contacts
     WHERE username = p_contact_name;
 
-    IF v_contact_id IS NULL THEN
-        RAISE EXCEPTION 'Contact not found.';
+    IF c_id IS NOT NULL THEN
+        INSERT INTO phones(contact_id, phone, type)
+        VALUES(c_id, p_phone, p_type);
     END IF;
-
-    INSERT INTO phones(contact_id, phone, type)
-    VALUES(v_contact_id, p_phone, p_type);
 END;
 $$;
 
 
--- =========================================
--- TSIS1 Procedure: Move Contact To Group
--- =========================================
-
+-- Move contact to another group
 CREATE OR REPLACE PROCEDURE move_to_group(
     p_contact_name VARCHAR,
     p_group_name VARCHAR
@@ -38,25 +33,21 @@ CREATE OR REPLACE PROCEDURE move_to_group(
 LANGUAGE plpgsql
 AS $$
 DECLARE
-    v_group_id INT;
+    g_id INT;
 BEGIN
-
     SELECT id
-    INTO v_group_id
+    INTO g_id
     FROM groups
     WHERE name = p_group_name;
 
-    IF v_group_id IS NULL THEN
-
+    IF g_id IS NULL THEN
         INSERT INTO groups(name)
         VALUES(p_group_name)
-        RETURNING id INTO v_group_id;
-
+        RETURNING id INTO g_id;
     END IF;
 
     UPDATE contacts
-    SET group_id = v_group_id
+    SET group_id = g_id
     WHERE username = p_contact_name;
-
 END;
 $$;
