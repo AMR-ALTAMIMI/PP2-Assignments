@@ -1,0 +1,5 @@
+host = "127.0.0.1"
+database = "phonebook"
+user = "postgres"
+password = "Amr12345"
+port = "5432"
